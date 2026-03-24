@@ -12,3 +12,4 @@ Go 后端（Gin + WebSocket）实现。当前提供：
 ```bash
 go run ./cmd/server
 ```
+Go 后端服务目录。

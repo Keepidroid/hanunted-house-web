@@ -6,6 +6,10 @@ services:
     container_name: hanunted-house-server
     environment:
       - SERVER_ADDR=:8080
+# 一键启动所有服务（后续随着服务落地再补充具体配置）
+services:
+  server:
+    build: ./server
     ports:
       - "8080:8080"
 
@@ -16,3 +20,7 @@ services:
       - server
     ports:
       - "5173:80"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
