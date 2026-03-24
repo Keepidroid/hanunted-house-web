@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  server:
+    build: ./server
+    container_name: hanunted-house-server
+    environment:
+      - SERVER_ADDR=:8080
+    ports:
+      - "8080:8080"
+
+  web:
+    build: ./web
+    container_name: hanunted-house-web
+    depends_on:
+      - server
+    ports:
+      - "5173:80"
