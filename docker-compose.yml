@@ -1,0 +1,15 @@
+version: "3.9"
+
+# 一键启动所有服务（后续随着服务落地再补充具体配置）
+services:
+  server:
+    build: ./server
+    ports:
+      - "8080:8080"
+
+  web:
+    build: ./web
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
