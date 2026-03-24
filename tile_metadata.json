@@ -1,0 +1,884 @@
+[
+  {
+    "tile_index": 0,
+    "front": {
+      "chinese_name": "天文台",
+      "chinese_description": "",
+      "english_name": "OBSERVATORY",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层"]
+    }
+  },
+  {
+    "tile_index": 1,
+    "front": {
+      "chinese_name": "塔楼",
+      "chinese_description": "",
+      "english_name": "TOWER",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层"]
+    }
+  },
+  {
+    "tile_index": 2,
+    "front": {
+      "chinese_name": "雕像走廊",
+      "chinese_description": "",
+      "english_name": "STATUARY CORRIDOR",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层"]
+    }
+  },
+  {
+    "tile_index": 3,
+    "front": {
+      "chinese_name": "画廊",
+      "chinese_description": "通向舞厅。",
+      "english_name": "GALLERY",
+      "english_description": "Leads to Ballroom.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层"]
+    }
+  },
+  {
+    "tile_index": 4,
+    "front": {
+      "chinese_name": "舞厅",
+      "chinese_description": "",
+      "english_name": "BALLROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 5,
+    "front": {
+      "chinese_name": "厨房",
+      "chinese_description": "",
+      "english_name": "KITCHEN",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 6,
+    "front": {
+      "chinese_name": "实验室",
+      "chinese_description": "",
+      "english_name": "LABORATORY",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 7,
+    "front": {
+      "chinese_name": "温室",
+      "chinese_description": "",
+      "english_name": "CONSERVATORY",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 8,
+    "front": {
+      "chinese_name": "墓园",
+      "chinese_description": "通向地下洞穴。",
+      "english_name": "GRAVEYARD",
+      "english_description": "Leads to the Underground Cavern.",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 9,
+    "front": {
+      "chinese_name": "礼拜堂",
+      "chinese_description": "当你发现此板块，获得1点神志。",
+      "english_name": "CHAPEL",
+      "english_description": "When you discover this tile, gain 1 Sanity.",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 10,
+    "front": {
+      "chinese_name": "食物储藏室",
+      "chinese_description": "当你发现此板块，获得1点力量。",
+      "english_name": "LARDER",
+      "english_description": "When you discover this tile, gain 1 Might.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 11,
+    "front": {
+      "chinese_name": "餐厅",
+      "chinese_description": "",
+      "english_name": "DINING ROOM",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 12,
+    "front": {
+      "chinese_name": "洗衣槽",
+      "chinese_description": "通向地下室起始点。若你在此板块结束你的回合，将你的探险者放置在地下室起始点。",
+      "english_name": "LAUNDRY CHUTE",
+      "english_description": "Leads to the Basement Landing. If you end your turn on this tile, place your explorer on the Basement Landing.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面"]
+    }
+  },
+  {
+    "tile_index": 13,
+    "front": {
+      "chinese_name": "金库",
+      "chinese_description": "",
+      "english_name": "VAULT",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 14,
+    "front": {
+      "chinese_name": "深渊",
+      "chinese_description": "",
+      "english_name": "CHASM",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 15,
+    "front": {
+      "chinese_name": "安全屋",
+      "chinese_description": "当你发现此板块时，如果秘密楼梯还没有被放置，则在板块堆中将其找出并放置在地下室。随后，洗混板块牌堆。",
+      "english_name": "PANIC ROOM",
+      "english_description": "When you discover this tile, if the Secret Stairs tile has not been placed, find it in the tile stack and place it in the Basement. Then, shuffle the tile stack.",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 16,
+    "front": {
+      "chinese_name": "地下洞穴",
+      "chinese_description": "通向墓园。",
+      "english_name": "UNDERGROUND CAVERN",
+      "english_description": "Leads to the Graveyard.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 17,
+    "front": {
+      "chinese_name": "仪式房间",
+      "chinese_description": "",
+      "english_name": "RITUAL ROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 18,
+    "front": {
+      "chinese_name": "地底湖",
+      "chinese_description": "",
+      "english_name": "UNDERGROUND LAKE",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 19,
+    "front": {
+      "chinese_name": "地下墓穴",
+      "chinese_description": "",
+      "english_name": "CATACOMBS",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 20,
+    "front": {
+      "chinese_name": "秘密楼梯",
+      "chinese_description": "通向门厅。",
+      "english_name": "SECRET STAIRCASE",
+      "english_description": "Leads to the Hallway.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 21,
+    "front": {
+      "chinese_name": "锅炉室",
+      "chinese_description": "若你在此板块结束你的回合，则承受1点物理伤害。",
+      "english_name": "FURNACE ROOM",
+      "english_description": "If you end your turn on this tile, take 1 Physical damage.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地下室"]
+    }
+  },
+  {
+    "tile_index": 22,
+    "front": {
+      "chinese_name": "过冬卧室",
+      "chinese_description": "",
+      "english_name": "WINTER BEDROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 23,
+    "front": {
+      "chinese_name": "客房",
+      "chinese_description": "",
+      "english_name": "GUEST QUARTERS",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 24,
+    "front": {
+      "chinese_name": "血迹斑斑的房间",
+      "chinese_description": "",
+      "english_name": "BLOODY ROOM",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 25,
+    "front": {
+      "chinese_name": "图书室",
+      "chinese_description": "当你发现此板块，获得1点知识。",
+      "english_name": "LIBRARY",
+      "english_description": "When you discover this tile, gain 1 Knowledge.",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 26,
+    "front": {
+      "chinese_name": "崩塌的房间",
+      "chinese_description": "若你在此板块结束你的回合，需进行一个速度检定。5+无事发生。4-0将你的探险者放置在地下室起始点并承受一颗骰子的物理伤害。",
+      "english_name": "COLLAPSED ROOM",
+      "english_description": "If you end your turn on this tile, make a Speed roll. 5+ Nothing happens. 4-0 Place your explorer on the Basement Landing and take one die of Physical damage.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 27,
+    "front": {
+      "chinese_name": "杂乱的房间",
+      "chinese_description": "当你发现此板块，在其上放置一个障碍标记物。",
+      "english_name": "JUNK ROOM",
+      "english_description": "When you discover this tile, place an Obstacle token on it.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 28,
+    "front": {
+      "chinese_name": "标本室",
+      "chinese_description": "",
+      "english_name": "SPECIMEN ROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 29,
+    "front": {
+      "chinese_name": "烧焦的房间",
+      "chinese_description": "",
+      "english_name": "CHARRED ROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 30,
+    "front": {
+      "chinese_name": "客厅",
+      "chinese_description": "",
+      "english_name": "SALON",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 31,
+    "front": {
+      "chinese_name": "主卧室",
+      "chinese_description": "",
+      "english_name": "PRIMARY BEDROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面"]
+    }
+  },
+  {
+    "tile_index": 32,
+    "front": {
+      "chinese_name": "风琴室",
+      "chinese_description": "",
+      "english_name": "ORGAN ROOM",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 33,
+    "front": {
+      "chinese_name": "隔音室",
+      "chinese_description": "",
+      "english_name": "SOUNDPROOFED ROOM",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 34,
+    "front": {
+      "chinese_name": "育婴室",
+      "chinese_description": "",
+      "english_name": "NURSERY",
+      "english_description": "",
+      "contains_yellow_crow": true,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 35,
+    "front": {
+      "chinese_name": "手术室",
+      "chinese_description": "",
+      "english_name": "OPERATING THEATRE",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 36,
+    "front": {
+      "chinese_name": "管道夹层",
+      "chinese_description": "",
+      "english_name": "CRAWLSPACE",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 37,
+    "front": {
+      "chinese_name": "游戏室",
+      "chinese_description": "",
+      "english_name": "GAME ROOM",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": true,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地下室"]
+    }
+  },
+  {
+    "tile_index": 38,
+    "front": {
+      "chinese_name": "健身房",
+      "chinese_description": "当你发现此板块，获得1点速度。",
+      "english_name": "GYMNASIUM",
+      "english_description": "When you discover this tile, gain 1 Speed.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面", "地下室"]
+    }
+  },
+  {
+    "tile_index": 39,
+    "front": {
+      "chinese_name": "军火库",
+      "chinese_description": "当你发现此板块时，从物品牌堆顶展示卡牌直到出现一件武器，拿取该武器并埋葬其余的牌。",
+      "english_name": "ARMORY",
+      "english_description": "When you discover this tile, reveal cards from the top of the Item deck until you reveal a weapon. Take it and bury the rest.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["地面", "地下室"]
+    }
+  },
+  {
+    "tile_index": 40,
+    "front": {
+      "chinese_name": "逼仄的通道",
+      "chinese_description": "",
+      "english_name": "CRAMPED PASSAGEWAY",
+      "english_description": "",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": true,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面", "地下室"]
+    }
+  },
+  {
+    "tile_index": 41,
+    "front": {
+      "chinese_name": "神秘电梯",
+      "chinese_description": "每回合一次，当你进入此板块时，你可以投掷两颗骰子。并将神秘电梯移动至下列楼层的某个开放的门口：4+ 任一区域；3 上层楼层；2 地面楼层；0-1 地下室楼层。",
+      "english_name": "MYSTIC ELEVATOR",
+      "english_description": "Once per turn when you enter this tile, you may roll two dice. Move the Mystic Elevator to an open doorway on: 4+ Any region. 3 Upper Floor. 2 Ground Floor. 0-1 Basement.",
+      "contains_yellow_crow": false,
+      "contains_yellow_vortex": false,
+      "contains_yellow_sheep_head": false,
+      "doors": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "back": {
+      "possible_areas": ["上层", "地面", "地下室"]
+    }
+  }
+]
